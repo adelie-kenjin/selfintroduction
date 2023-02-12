@@ -1,0 +1,289 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    height: 80px;
+    line-height: 80px;
+    display:flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    position:fixed;
+    width: 100vw;
+    background-color: rgba(255,255,255,0.8);
+}
+header p{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 80px;
+}
+header a{
+    font-size: 16px;
+    font-weight: bold;
+}
+header ul{
+    display:flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.firstView h1{
+    font-size:64px;
+    text-align: center;
+    padding-top: 320px;
+    padding-bottom: 60px;
+}
+
+.firstView p{
+    font-size: 14px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.firstView{
+    background-image: url(veggie/imo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.about{
+    padding: 180px;
+    background-color: rgb(227, 227, 227);
+}
+
+.profile h2{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+}
+
+.profile h3{
+    font-size: 24px;
+    margin-top: 72px;
+}
+
+.profile p{
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.profile img{
+    width: 300px;
+    height: 300px;
+    margin-left: 15%;
+    border-radius: 16px;
+}
+
+.profile .profile-text{
+    width: 500px;
+    float: left;
+    margin-right: 5%;
+}
+
+.hobby h2{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+}
+
+.clearfix{
+    clear:both;
+}
+
+.yokonarabi{
+    display: flex;
+    justify-content: space-between;
+}
+
+.brassband img{
+    width: 480px;
+    height: 270px;
+    border-radius: 16px;
+    
+}
+
+.school-club img{
+    width: 480px;
+    height: 270px;
+    border-radius: 16px;
+    
+}
+.school-club img:hover{
+    transition:0.2s;
+    opacity: 0.5;
+}
+
+.school-club h3{
+    margin-top: 8px;
+}
+
+.school-club p{
+    margin-top: 16px;
+}
+
+.school-club a{
+    display: inline-block;
+}
+
+.favorite{
+    text-align: center;
+    background-image: url(veggie/iikanji-background.jpg);
+    background-size: cover;
+}
+.favorite h2{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    color: #fff;
+    border-bottom: 3px solid #ffffff;
+    display: inline-block;
+    padding-top:80px;
+}
+
+.favorite-contents{
+    display: flex;
+    justify-content: space-around;
+    padding: 180px 180px 240px;
+}
+
+.favorite-content{
+    width: 320px;
+    padding: 40px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 16px;
+}
+
+.favorite-content h3{
+    font-size: 24px;
+    margin-top: 16px;
+}
+.favorite-content p{
+    font-size: 16px;
+    text-align: left;
+    margin-top: 32px;
+}
+.favorite-content img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.works{
+    text-align: center;
+    padding: 80px 180px 180px 180px;
+    background-color: #fffdf3;
+}
+.works h2{
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: .1em;
+    border-bottom: 3px solid #f90;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.works-content{
+    display: flex;
+    background-color: #ffffff;
+    margin-top: 40px;
+    padding: 40px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    text-align: left;
+}
+
+.works-content img{
+    width: 320px;
+    height: 180px;
+}
+
+.works-content h3{
+    font-size: 30px;
+    padding: 15px 10px;
+}
+
+.works-content span{
+    font-size: 16px;
+    margin-left: 16px;
+}
+.works-content p{
+    font-size: 16px;
+    margin-top: 16px;
+    padding-left: 0px;
+}
+
+.works-text{
+    padding-left: 32px;
+}
+
+.contact{
+    text-align: center;
+    padding: 50px 180px 80px 180px;
+    background-color: white;
+}
+
+.contact h2{
+    font-size: 45px;
+    letter-spacing: .1em;
+    border-bottom: 3px solid #f90;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.contact a{
+    margin: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color:white;
+    width: 200px;
+    line-height: 80px;
+    display: inline-block;
+    border-radius: 16px;
+}
+
+.FB{
+    background-color: #4267B2;
+}
+.FB:hover{
+    transition:0.5s;
+    background-color: white;
+    color: #4267B2;
+    border: 1px solid #4267B2;
+}
+
+.IG{
+    background-color: rgba(207,46,146);
+}   
+.IG:hover{
+    transition:0.5s;
+    background-color: white;
+    color: rgba(207,46,146);
+    border: 1px solid rgba(207,46,146);
+}
+
+.ML{
+    background-color: gray;
+}
+.ML:hover{
+    transition:0.5s;
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+}
+
+footer{
+    height: 80px;
+    background-color: #edece7;
+    line-height: 80px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
